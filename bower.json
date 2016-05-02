@@ -1,0 +1,21 @@
+{
+  "name": "packator-backoffice",
+  "description": "Backend portal for Hub users and administrators",
+  "main": "gulpfile.js",
+  "authors": [
+    "www.codebehind.rs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/foundcenter/packator-backoffice",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngmap": "^1.17.3"
+  }
+}

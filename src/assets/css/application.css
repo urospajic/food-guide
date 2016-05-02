@@ -1,0 +1,373 @@
+/* global body padding */
+body {
+  padding-bottom: 20px;
+}
+
+/* global spacing overrides */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navbar-fixed-top,
+.navbar-static-top {
+  border-bottom: 0;
+}
+
+
+/* Login page*/
+#backend-login {
+  width: 460px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+#backend-login form {
+  padding-top: 80px;
+}
+
+/* Login page*/
+
+/* Pagination */
+.pagination a {
+  cursor: pointer;
+}
+/* Pagination */
+
+.top-page-text {}
+.sidebar-header {
+  padding-bottom: 0;
+}
+.nav-top-item {
+  margin-top: 30px;
+}
+
+.nav > .nav-header {
+  font-size: 100%;
+}
+
+.header-logo {
+  margin-left: 10px;
+}
+
+.sidebar-nav {
+     margin-right: 0; 
+}
+
+.dashhead {
+  margin: 10px 0 25px 0;
+}
+
+.form-control {
+  height: 40px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.dashhead-subtitle {
+  font-size: 100%;
+}
+.icon-back-to-orders {
+  margin-right: 10px;
+}
+
+.order-details {
+  margin-top: 20px;
+}
+.package-photo {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.orders-navigation .list-group-item:first-child {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hero-details {
+  margin-bottom: 20px;
+}
+.order-status p {
+  display: inline;
+  padding: 3px;
+  margin: 0; 
+}
+
+.hero-image-container {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.hero-image-container .hero-image {
+  max-height: 50px;
+}
+
+.hero-name {
+  line-height: 50px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+.input-with-icon > .icon {
+  top: 10px;
+}
+
+.input-with-icons {
+  position: relative;
+}
+.input-with-icons > .icon {
+  position: absolute;
+  top: 10px;
+  color: #ccc;
+}
+
+.input-with-icons > .icon-calendar {
+  left: 10px;
+}
+
+.input-with-icons > .clearDaterange {
+  right: 10px;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+.package-checkin {
+  margin-bottom: 40px;
+}
+.package-checkin select.form-control {
+  width: 200px;
+}
+
+.carriers-info {
+  padding-left: 15px;
+}
+
+.carriers-info select {
+  width: 36%;
+}
+
+.carriers-info .price-info {
+  padding-right: 0;
+  padding-left: 28px;
+}
+
+.btn-fix-width {
+  width: 120px;
+}
+
+.dashhead-titles {
+  float: none;
+}
+
+.hleft {
+  text-align: left;
+}
+
+.hright {
+  text-align: right;
+}
+
+.hcenter {
+  text-align: center;
+}
+
+.notification-container {
+  width: 100%;
+  z-index: 1001;
+}
+
+.remove-notification.alert {
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.remove-notification i {
+  margin-right: 6px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.notification-active .top-nav {
+  top: 60px;
+}
+
+.notification-active .account-area {
+  margin-top: 60px;
+}
+
+.notification-active .with-top-nav-l {
+  padding-top:150px;
+}
+
+.fc-red {
+  color: #d80879;
+}
+
+.bg-red {
+  background-color: #d80879;
+}
+
+.fc-blue {
+  color: #0cb5eb;
+}
+
+.bg-blue {
+  background-color: #0cb5eb;
+}
+
+.relative {
+  position: relative;
+}
+
+.modal .text-light {
+  color: #ffffff;
+}
+
+.page-content-full {
+  margin-top: 20px;
+}
+
+.shipping-info {
+  margin-bottom: 15px;
+}
+
+.shipping-info .carrier-logo {
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.shipping-info p {
+  margin-bottom: 2px;
+}
+
+#orders-history .date-picker {
+  width: 230px;
+  text-align: center;
+}
+
+.damaged-description {
+  width: 100% !important;
+  margin-top: 3px;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.right-panel {
+  position: fixed;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  width: 300px;
+  background-color: #252830;
+  padding-left: 40px;
+}
+
+.right-panel.closed {
+  width: 40px;
+}
+
+.right-panel .content {
+  padding-top: 10px;
+}
+
+.right-panel.open .content{
+
+  display: block;
+}
+
+.right-panel.closed .content{
+
+  display: none;
+}
+
+.right-panel .panel-toggler {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #f5f5f5;
+  font-size: 30px;
+}
+
+.venue-info {
+  position: relative;
+  padding-left: 80px;
+}
+
+.venue-info .venue-logo {
+  position: absolute;
+  top: 5px;
+  left: 3px;
+}
+
+.venue-info .venue-logo img {
+  width: 70px;
+}
+
+.venue-info .venue-content .title {
+  text-transform: uppercase;
+    font-weight: 500;
+}
+
+.venue-info .venue-content p {
+  font-size: 11px;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+
+.venue-modal .venue-logo {
+  max-height: 150px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.venue-modal .venue-logo img {
+  width: 100%
+}
+
+.venue-modal .title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.venue-modal .info-item {
+  color: #1686b0;
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.venue-modal .venue-rating {
+  color: #1686b0;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.venue-modal hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-color: #ccc;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
