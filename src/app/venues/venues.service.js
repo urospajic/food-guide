@@ -24,7 +24,7 @@
 				method: 'get',
 				
 				//file 'myserver.json' calls google places webservice API, and returns JSON 
-				url: 'http://94.189.182.21:3000/data'
+				url: 'http://localhost:3000/data'
 				
 			})
 			.then(function (response) {
