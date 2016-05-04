@@ -20,18 +20,26 @@
 			// TODO: search venues by radius from specific geolocation
 			// NOW: return all venues (this is DEMO app)
 			return $http({
-				method: 'GET',
-				url: '/data/venues.data.json'
-			})
-			.then(function(response) {
 
+				method: 'get',
+				
+				//file 'myserver.json' calls google places webservice API, and returns JSON 
+				url: 'http://94.189.182.21:3000/data'
+				
+			})
+			.then(function (response) {
+				
+				var places = response.data.results;
+				
 				var result = [];
 
-				for (var i in response.data) {
+				for (var i in places) {
 
-					result.push(new Venue(response.data[i]));
+					result.push(new Venue(places[i]));
 				}
 				return result;
+			},function (response){
+				console.log(response);
 			});
 		}
 	}
